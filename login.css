@@ -1,0 +1,52 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=EB+Garamond&family=PT+Sans&family=Roboto+Slab:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=EB+Garamond:ital,wght@1,500;1,600;1,700;1,800&family=PT+Sans&family=Roboto+Slab:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=EB+Garamond:ital,wght@1,500;1,600;1,700;1,800&family=PT+Sans&family=Playfair+Display:ital@1&family=Roboto+Slab:wght@500&display=swap");
+
+/* Define font families */
+/* font-family: 'Dancing Script', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto Slab', serif; */
+
+#l-ttl {
+  background-color: rgba(184, 199, 199, 0.952);
+  text-align: center;
+  color: black;
+  font-family: "Dancing Script", cursive;
+  border-radius: 10px;
+}
+span {
+  background: linear-gradient(to right, #50f106, #1900f3);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-family: "EB Garamond", serif;
+}
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid rgba(184, 199, 199, 0.952);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.form-label{
+  font-family: "EB Garamond", serif;
+}
+.login-btn-1{
+  width: 100%;
+  height: 40px;
+  border: none;
+  color: white;
+  background-color: orangered;
+  border-radius: 20px;
+}
+.login-btn-1:hover{
+  background-color: blueviolet;
+}

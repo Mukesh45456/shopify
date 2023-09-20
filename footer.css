@@ -1,0 +1,36 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
+
+/* Styling for anchor links */
+a {
+  text-decoration: none;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+/* Styling for anchor links on hover */
+a:hover {
+  color: orangered;
+  transform: scale(1.1);
+}
+
+/* Styling for copyright text */
+.copyright {
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  padding: 10px 0;
+  font-family: "Playfair Display", serif;
+}
+
+/* Styling for divider line */
+.line {
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+/* Styling for special link class */
+.mk {
+  font-weight: bold;
+  font-size: 20px;
+}

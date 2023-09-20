@@ -1,0 +1,97 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=EB+Garamond&family=PT+Sans&family=Roboto+Slab:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=EB+Garamond:ital,wght@1,500;1,600;1,700;1,800&family=PT+Sans&family=Roboto+Slab:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=EB+Garamond:ital,wght@1,500;1,600;1,700;1,800&family=PT+Sans&family=Playfair+Display:ital@1&family=Roboto+Slab:wght@500&display=swap");
+
+/* Define font families */
+/* font-family: 'Dancing Script', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto Slab', serif; */
+
+/* Styling for various headings */
+#h5 {
+  color: white;
+  font-family: "EB Garamond", serif;
+  font-size: 200px;
+  background: linear-gradient(to right, #50f106, #91967e);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+}
+#h4 {
+  color: white;
+  font-family: "EB Garamond", serif;
+  font-size: 200px;
+  background: linear-gradient(to right, #50f106, #91967e);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+}
+#h3 {
+  color: white;
+  font-family: "EB Garamond", serif;
+  font-size: 200px;
+  background: linear-gradient(to right, #50f106, #91967e);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Styling for a specific class */
+.nayak {
+  color: black;
+  font-size: 30px;
+  font-family: "EB Garamond", serif;
+  background-color: rgba(184, 199, 199, 0.952);
+  border-radius: 10px;
+}
+
+/* Styling for the main heading */
+#heading {
+  margin: 10px;
+  text-align: center;
+  background-color: rgba(184, 199, 199, 0.952);
+  font-family: "Dancing Script", cursive;
+}
+
+/* Styling for the "Add to Cart" button */
+.add-to-cart-button {
+  display: inline-block;
+  background-color: #f0ad4e;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Dancing Script", cursive;
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect for the "Add to Cart" button */
+.add-to-cart-button:hover {
+  transform: scale(1.1);
+}
+
+/* Styling for the cart icon */
+.cart-icon {
+  margin-right: 5px;
+}
+.tech {
+  font-family: "Roboto Slab", serif;
+}
+.mukesh {
+  font-family: "Playfair Display", serif;
+}
+
+/* Hover effect for cards */
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,79 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=EB+Garamond&family=PT+Sans&family=Roboto+Slab:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=EB+Garamond:ital,wght@1,500;1,600;1,700;1,800&family=PT+Sans&family=Roboto+Slab:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=EB+Garamond:ital,wght@1,500;1,600;1,700;1,800&family=PT+Sans&family=Playfair+Display:ital@1&family=Roboto+Slab:wght@500&display=swap");
+
+/* Define font families */
+/* font-family: 'Dancing Script', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto Slab', serif; */
+
+.card-header {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Dancing Script", cursive;
+}
+.container {
+  margin-bottom: 45px;
+}
+#mkm {
+  margin-top: 20px;
+  text-align: center;
+  font-family: "EB Garamond", serif;
+}
+#pc {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.quantity-form {
+  display: flex;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+.pmpm {
+  background-color: orangered;
+  color: white;
+  border: none;
+  border-radius: 20px;
+}
+.pmpm:hover {
+  background-color: blueviolet;
+}
+.c-text {
+  display: flex;
+  justify-content: space-between;
+}
+#t-3 {
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+}
+#t-1 {
+  font-family: "EB Garamond", serif;
+  font-size: 20px;
+}
+#t-2 {
+  font-family: "EB Garamond", serif;
+  font-size: 20px;
+}
+#check-btn {
+  text-align: center;
+}
+#check {
+  color: white;
+  border: none;
+  background-color: orangered;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+}
+#check:hover {
+  background-color: blueviolet;
+}
